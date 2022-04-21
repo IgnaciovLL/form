@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clas.css">   
+    <title>Document</title>
+</head>
+<body>
+    <br><br>
+    <header>
+        <h1>Calculadora de peso ideal usando la fórmula de Paul Broca</h1>
+    </header>
+    <form>
+        <div class="container">
+            <div class="raw">
+                <div class="col">
+                    <label>Altura (centimetros)</label>
+                </div>
+                <div class="col1">
+                    <input type="number" min="100" max="200" maxlength="20" size="20" required placeholder="Altura">
+                </div>    
+            </div>
+            <br><br>
+            <label class="col">Edad</label>
+            <br>
+            <select name="edad">
+                <option value="23">20-30 años</option>
+                <option value="45">40-50 años</option>
+                <option value="50>">Mas de 50 años</option>
+            </select>
+            <br><br>
+            <label class="col">Sexo</label>
+            <br>
+            <select name="sex">
+                <option value="hom">Masculino</option>
+                <option value="muj">Femenino</option>
+            </select>
+            <br><br>
+            <div class="won">
+                <label class="col">Circunferencia de la muñeca de la mano derecha (centímetros)</label>
+            </div>
+            <div class="rel">
+                <input type="number" min="10" max="25">
+            </div>
+        </div>
+        <br><br>
+        <input type="submit" value="Registrar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>
